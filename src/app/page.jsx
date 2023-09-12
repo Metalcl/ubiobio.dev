@@ -3,7 +3,7 @@ import React, {useState, useEffect} from 'react';
 import Header from '../components/Header';
 
 export default function Home() {
-  
+
   const [position, setPosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
