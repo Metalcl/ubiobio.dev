@@ -5,6 +5,7 @@ import discord from '@/assets/img/discord.png';
 import TypingAnimation from '@/components/TypingAnimation';
 import Logo from '@/components/Logo';
 import Image from 'next/image';
+import '../styles/styles.css'
 
 const Header = () => {
   return (
@@ -18,7 +19,7 @@ const Header = () => {
         </div>
         <p className="text-2xl text-primary-white text-center lg:text-left mx-5">
           La comunidad de desarrollo de software colaborativo formada por
-          estudiantes de la Universidad del Bío Bío
+          estudiantes de la Universidad del Bío Bío.
         </p>
         <section className="flex justify-around m-5 items-center">
           <Link
