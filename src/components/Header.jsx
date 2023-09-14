@@ -9,7 +9,7 @@ import '../styles/styles.css'
 
 const Header = () => {
   return (
-    <header className="flex flex-col justify-evenly items-center max-w-xl lg:flex-row">
+    <header className="flex flex-col justify-evenly items-center max-w-xl lg:flex-row pt-5 pb-5">
       <Logo />
       <section>
         <div className="lg:min-w-[390px] lg:min-h-[320px]">

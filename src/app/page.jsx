@@ -20,6 +20,8 @@ export default function Home() {
     <div className="flex flex-col justify-center items-center min-h-screen min-w-screen">
       <div className='focus' style={{ left: `${position.x - 20}px`, top: `${position.y - 15}px` }}></div>
       <Header />
+      <Header />
+      <Header />
     </div>
   );
 }
